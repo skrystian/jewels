@@ -1,0 +1,33 @@
+body {
+  margin: 0; }
+
+#game {
+  font-family: geo;
+  color: #c8c8c8;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 320px;
+  height: 480px;
+  background-color: #1e1e1e; }
+  #game .screen {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: none;
+    z-index: 10; }
+  #game .active {
+    display: block; }
+  #game .splash-screen {
+    text-align: center;
+    padding-top: 100px; }
+    #game .splash-screen .continue {
+      cursor: pointer;
+      font-size: 30px; }
+  #game .logo {
+    font-family: Slackey;
+    font-size: 60px;
+    line-height: 60px;
+    margin: 0;
+    text-align: center;
+    color: #467814; }
